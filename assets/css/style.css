@@ -1,0 +1,198 @@
+
+.logo {
+    padding-top: 21px;
+}
+.logo.logo-4 {
+    padding-top: 18px;
+}
+/* 纵排列-横排列*/
+.main-menu > nav > ul > li {
+    display: inline-block;
+    position: relative;
+}
+.main-menu > nav > ul > li > a {
+    color: #555555;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 33px 23px 35px;
+    text-transform: uppercase;
+}
+.main-menu > nav > ul > li:hover > a {
+    color: #f8b864;
+}
+
+.main-menu > nav > ul > li > ul > li > a,
+.main-menu.menu-style-2 > nav > ul > li > ul > li > a {
+    color: black;
+    display: block;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.main-menu > nav > ul > li > ul > li > a:hover,
+.main-menu.menu-style-2 > nav > ul > li > ul > li > a:hover {
+    color: #f8b864;
+}
+.main-menu > nav > ul > li > ul > li {
+    margin-bottom: 10px;
+}
+.main-menu > nav > ul > li > ul > li:last-child {
+    margin-bottom: 0px;
+}
+.main-menu.menu-style-2 li a {
+    color: #fff;
+}
+.event-img-info img {
+    width: 100%;
+}
+
+.event-img-info {
+    position: relative;
+}
+.event-img-info::before {
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 44%, rgba(0, 0, 0, 0.80) 100%) repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.event-info {
+    bottom: 20px;
+    left: 40px;
+    position: absolute;
+}
+.event-img-info > img {
+    width: 100%;
+}
+.event-info > h3 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.event-time-date > span {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    margin-right: 25px;
+}
+.event-time-date > span i {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 9px;
+}
+/* breadcrumb area */
+
+.breadcrumb-area {
+    background-position: center center;
+    background-size: cover;
+    background-color: #000;
+}
+.breadcrumb-text > h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.imgBox{
+    text-align: center;
+    margin: auto;
+}
+
+/*这下面是我自己加的*/
+
+.main-list > nav > ul > li {
+    display: inline-block;
+    position: relative;
+}
+.main-list > nav > ul > li > a {
+    color: black;
+    display: inline-block;
+    font-size: 21px;
+    font-weight: normal;
+    padding: 6px 6px 6px;
+}
+.main-list > nav > ul > li:hover > a {
+    color: #f8b864;
+}
+
+.main-list > nav > ul > li > ul > li > a,
+.main-menu.menu-style-2 > nav > ul > li > ul > li > a {
+    color: black;
+    display: block;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.main-list > nav > ul > li > ul > li > a:hover,
+.main-list.list-style > nav > ul > li > ul > li > a:hover {
+    color: black;
+}
+.main-list > nav > ul > li > ul > li {
+    margin-bottom: 0px;
+}
+.main-list > nav > ul > li > ul > li:last-child {
+    margin-bottom: 0px;
+}
+.main-list.list-style li a {
+    color: black;
+}
+
+.small-list > nav > ul > li {
+    display: inline-block;
+    position: relative;
+}
+.small-list > nav > ul > li > a {
+    color: black;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 15px 15px 15px;
+}
+.small-list > nav > ul > li:hover > a {
+    color: #f8b864;
+}
+
+.small-list > nav > ul > li > ul > li > a,
+.small-menu.list-style > nav > ul > li > ul > li > a {
+    color: black;
+    display: block;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.small-list > nav > ul > li > ul > li > a:hover,
+.small-list.list-style > nav > ul > li > ul > li > a:hover {
+    color: black;
+}
+.small-list > nav > ul > li > ul > li {
+    margin-bottom: 0px;
+}
+.small-list > nav > ul > li > ul > li:last-child {
+    margin-bottom: 0px;
+}
+.small-list.list-style li a {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
